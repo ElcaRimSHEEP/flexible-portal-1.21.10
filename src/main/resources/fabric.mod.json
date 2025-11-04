@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.elcarimsheep.flexible_portal.FlexiblePortalDataGenerator"
+		],
+		"client": [
+			"com.elcarimsheep.flexible_portal.FlexiblePortalClient"
 		]
 	},
 	"mixins": [

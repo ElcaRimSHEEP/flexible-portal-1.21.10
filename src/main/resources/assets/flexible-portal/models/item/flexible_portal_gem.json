@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "flexible-portal:item/flexible_portal_gem"
+  }
+}

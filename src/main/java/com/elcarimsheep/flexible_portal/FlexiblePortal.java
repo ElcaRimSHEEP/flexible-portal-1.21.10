@@ -1,5 +1,6 @@
 package com.elcarimsheep.flexible_portal;
 
+import com.elcarimsheep.flexible_portal.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class FlexiblePortal implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
