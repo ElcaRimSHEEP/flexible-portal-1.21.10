@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "flexible-portal",
+	"version": "${version}",
+	"name": "Flexible Portal",
+	"description": "地狱传送门不再拘泥于原本的跨纬度传送，现在你可以为任意两个地狱传送门建立传送连接。",
+	"authors": [
+		"ElcaRimSHEEP"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/flexible-portal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.elcarimsheep.flexible_portal.FlexiblePortal"
+		],
+		"fabric-datagen": [
+			"com.elcarimsheep.flexible_portal.FlexiblePortalDataGenerator"
+		]
+	},
+	"mixins": [
+		"flexible-portal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
